@@ -1,7 +1,10 @@
 #!/bin/sh
 
 # build jar file
-mvn clean install &&
+# mvn clean install &&
+
+# build jar file and skip tests
+mvn clean install -DskipTests &&
 
 # run java from cli with default port (8080)
 java -jar target/*jar && 
