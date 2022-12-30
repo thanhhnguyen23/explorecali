@@ -34,4 +34,5 @@ build/
 
 ### Maven ###
 maven-wrapper.jar
+maven-wrapper.properties
 mvnw.cmd
